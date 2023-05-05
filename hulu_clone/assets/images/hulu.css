@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+/* Header Styling */
+
+header {
+    background-image: url("./images/hulu-bg.jpeg");
+    display: flex;
+    flex-direction: column;
+}
+
+#bundle {
+    align-self: center;
+    text-align: center;
+}
+
+#bundle img {
+    height: 10vh;
+}
+
+#banner {
+    display: flex;
+    flex-direction: column;
+}
+
+#banner img {
+    height: 5vh
+}
+/*Navigation Styling */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav img {
+    width: 75px;
+}
+
+nav button {
+    border: none;
+    color: #a8afbd;
+    background: none;
+}
